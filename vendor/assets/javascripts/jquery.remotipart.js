@@ -52,6 +52,7 @@
   };
 
   $('form').on('ajax:aborted:file', function(){
+
     var form = $(this);
 
     remotipart.setup(form);
